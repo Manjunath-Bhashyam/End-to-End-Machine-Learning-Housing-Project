@@ -1,7 +1,7 @@
 import os
 from datetime import datetime
 
-ROOT_DIR = os.path.split(os.getcwd())[0] # to get current working directory
+ROOT_DIR = os.getcwd() # to get current working directory
 
 CONFIG_DIR = "config"
 CONFIG_FILE_NAME = "config.yaml"
