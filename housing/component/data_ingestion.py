@@ -46,7 +46,7 @@ class DataIngestion:
         except Exception as e:
             raise HousingException(e,sys) from e
 
-    def extract_tgz_data(self,tgz_file_path:str):
+    def extract_tgz_file(self,tgz_file_path:str):
         try:
             raw_data_dir = self.data_ingestion_config.raw_data_dir
 
@@ -77,7 +77,7 @@ class DataIngestion:
 
             housing_data_frame = pd.read_csv(housing_file_path)
 
-            housing_data_frame['income_cat'] = pd.cut(housing_data_frame["median_income"],
+            housing_data_frame["income_cat"] = pd.cut(housing_data_frame["median_income"],
             bins = [0.0, 1.5, 3.0, 4.5, 6.0, np.inf],
             labels = [1,2,3,4,5]
             )
