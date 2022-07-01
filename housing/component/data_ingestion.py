@@ -33,7 +33,7 @@ class DataIngestion:
 
             housing_filename =  os.path.basename(download_url)
 
-            tgz_file_path = os.path.join(tgz_download_self, housing_filename)
+            tgz_file_path = os.path.join(tgz_download_dir, housing_filename)
 
             logging.info(f"Downloading file from :[{download_url}] into :[{tgz_file_path}]")
 

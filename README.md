@@ -88,7 +88,7 @@ To check running container in docker
 docker ps
 ```
 
-Tos stop docker container
+To stop docker container
 ```
 docker stop <container_id>
 ```
