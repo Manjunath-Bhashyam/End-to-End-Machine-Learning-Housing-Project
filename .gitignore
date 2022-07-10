@@ -2,10 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+saved_models/*
 # C extensions
 *.so
-
+housing/artifact
 # Distribution / packaging
 .Python
 build/
@@ -54,7 +54,7 @@ coverage.xml
 # Translations
 *.mo
 *.pot
-
+.idea/*
 # Django stuff:
 *.log
 local_settings.py

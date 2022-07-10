@@ -5,4 +5,7 @@ pandas
 sklearn
 PyYAML
 evidently
+dill
+matplotlib
+seaborn
 -e .

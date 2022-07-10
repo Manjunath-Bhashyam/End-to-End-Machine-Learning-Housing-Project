@@ -1,8 +1,12 @@
 ## Start Machine Learning project.
 
+California Housing Price Prediction
+
+Problem Statement: The purpose of the project is to predict median house values in Californian districts, given many features from these districts.
+
 ### Software and account Requirement.
 
-1. [Github Account](https://github.com)
+1. [GitHub Account](https://github.com)
 2. [Heroku Account](https://dashboard.heroku.com/login)
 3. [VS Code IDE](https://code.visualstudio.com/download)
 4. [GIT cli](https://git-scm.com/downloads)

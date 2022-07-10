@@ -8,7 +8,7 @@ data_ingestion_config:
   tgz_download_dir: tgz_data
   ingested_dir: ingested_data
   ingested_train_dir: train
-  ingested_test_dir: test 
+  ingested_test_dir: test
 
 data_validation_config:
   schema_dir: config
@@ -28,6 +28,8 @@ model_trainer_config:
   trained_model_dir: trained_model
   model_file_name: model.pkl
   base_accuracy: 0.6
+  model_config_dir: config
+  model_config_file_name: model.yaml
 
 model_evaluation_config:
   model_evaluation_file_name: model_evaluation.yaml

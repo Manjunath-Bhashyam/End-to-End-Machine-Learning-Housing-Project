@@ -9,7 +9,6 @@ class HousingException(Exception):
                                                                        error_detail=error_detail
                                                                         )
 
-
     @staticmethod
     def get_detailed_error_message(error_message:Exception,error_detail:sys)->str:
         """
