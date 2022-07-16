@@ -51,7 +51,7 @@ def evaluate_regression_model(model_list: list, X_train:np.ndarray, y_train:np.n
     X_train: Training dataset input feature
     y_train: Training dataset target feature
     X_test: Testing dataset input feature
-    y_test: Testing dataset input feature
+    y_test: Testing dataset target feature
 
     return
     It retured a named tuple
